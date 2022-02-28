@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+h1, h2{
+    color: #00191e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+p{
+    color: #00191e;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+header a{
+    text-transform: capitalize;
+    color: #ff5eac;
+    border: 1px solid #ff5eac;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    padding-bottom: 20px;
+}
+.reg p{
+    width: 500px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.reg a{
+    display: inline-block;
+    background-color: #fd53c0;
+    color: white;
+    padding: 20px 70px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.2);
+    margin-bottom: 80px;
+}
+.top-img{
+    display: flex;
+    justify-content: center;
+}
+.count{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.com-form h2, .mess h2{
+    font-size: 4rem;
+    padding-top: 10px;
+}
+.com-form p, .mess p{
+    color: #7f8295;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 10px;
+}
+.com-form::before{
+    content: url('../images/icon-communities.svg');
+}
+.mess::before{
+    content: url('../images/icon-messages.svg');
+}
+.grow{
+    background-color: #f6fbff;
+}
+.box{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 50px 0;
+}
+.box img{
+    width: 500px;
+}
+.txt{
+    padding-right: 150px;
+    width: 500px;
+}
+.txt p{
+    padding-top: 20px;
+    line-height: 25px;
+}
+.grow-cover{
+    background-image: url(../images/bg-section-top-desktop-1.svg);
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.grow-bot{
+    background-image: url(../images/bg-section-bottom-desktop-1.svg);
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.rev{
+    flex-direction: row-reverse;
+}
+.flow{
+    padding-left: 150px;
+    padding-right: 0px;
+}
+.users{
+    background-color: #f6fbff;
+}
+.users-cover{
+    background-image: url(../images/bg-section-top-desktop-2.svg);
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.users-bot{
+    background-image: url(../images/bg-section-bottom-desktop-2.svg);
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.bottom-reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.bottom-reg a{
+    color: white;
+    text-transform: capitalize;
+    background-color: #fd53c0;
+    padding: 15px 60px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.2);
+}
+.foot-cover{
+    background-image: url(../images/bg-footer-top-desktop.svg);
+    height: 150px;
+    background-repeat: no-repeat;
+
+}
+footer{
+    background-color: #00252e;
+}
+.foot-box{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.left-box p{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+.phone, .mail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.phone a, .mail a{
+    color: white;
+    padding-left: 10px;
+}
+.soc{
+    padding-top: 50px;
+}
+.soc a{
+    color: white;
+    padding-right: 10px;
+}
+.right{
+    width: 500px;
+}
+.right h2{
+    color: white;
+    padding-bottom: 20px;
+}
+.right p{
+    width: 350px;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+.mail-inp{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+}
+.btn{
+    cursor: pointer;
+    margin-left: 30px;
+    border: 0;
+    padding: 9px 30px;
+    border-radius: 10px;
+    color: white;
+    text-transform: capitalize;
+    background-color: #e360c0;
+    font-weight: 700;
+}
+
+
+/* query */
+
+@media only screen and (max-width: 375px){
+    
+}
